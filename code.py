@@ -59,9 +59,20 @@ def basement():
          basement()
 
 def hallway1():
+    #halfway description
     print ("\n\n> You are in a hallway")
     print("> On the east wall you see 2 doors")
     print("> One leads to a bedroom and the other leads to a living room")
     print("> On the west wall you see a door leading to a kitchen")
-
+    print ("> To your north is a door that leads outside")
+    choice = input (">>> ")
+    choice = choice.lower()
+    
+    if choice == 'enter bedroom':
+        bedroom()
+    elif choice == 'enter living room':
+        living_room()
+     elif choice == 'enter kitchen':
+        kitchen()
+    
 menu()
