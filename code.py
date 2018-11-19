@@ -59,8 +59,9 @@ def basement():
          basement()
 
 def hallway1():
-    print("\n\n> To your east you see a room")
-    print("> To your west you see another room")
-    print("> You're in a house, what did you expect?")
+    print ("\n\n> You are in a hallway")
+    print("> On the east wall you see 2 doors")
+    print("> One leads to a bedroom and the other leads to a living room")
+    print("> On the west wall you see a door leading to a kitchen")
 
 menu()
